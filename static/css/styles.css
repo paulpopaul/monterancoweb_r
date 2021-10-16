@@ -1,0 +1,43 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+body{
+background:#000000;
+}
+
+.box-portada{
+margin: 0 auto;
+justify-content: center;
+text-align: center;
+}
+
+.txt-unete{
+color: #ffffff;
+font-size: 12px;
+}
+
+.ico-social{
+color: #ffffff;
+}
+
+.ico-social:hover{
+color: #cccccc;
+}
+
+@media (min-width: 200px) and (max-width:374px) {
+
+.logo-monteranco{
+width: 251px;
+}
+.box-unete{
+
+}
+.txt-unete{
+font-size: 12px;
+}
+.ico-social{
+font-size: 12px;
+}
+}
